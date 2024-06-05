@@ -11,9 +11,17 @@ LibroConsoleAPI is a console-based application built using the .NET Core Framewo
 - Delete: Remove books from the database.
 This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
 
-Technologies Used
+### Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
 - Entity Framework Core: An ORM (Object-Relational Mapper) for database interactions.
 - xUnit: A unit-testing framework for .NET applications
 - nUnit: A unit-testing framework for .NET applications
+### Contributing
+Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Contact
+For any questions or suggestions, please open an issue in the repository.
