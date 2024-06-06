@@ -17,6 +17,19 @@ This application showcases fundamental software development practices, including
 - Entity Framework Core: An ORM (Object-Relational Mapper) for database interactions.
 - xUnit: A unit-testing framework for .NET applications
 - nUnit: A unit-testing framework for .NET applications
+### Docker Integration
+You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
+
+### Pull the SQL Server Docker image:
+
+- [docker pull](mcr.microsoft.com/mssql/server)
+### Run the Docker container:
+
+- docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Your_password123' -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server
+### Connect to the SQL Server:
+
+- Use the connection string: Server=localhost,1433;Database=YourDatabase;User Id=sa;Password=Your_password123;
+- Replace YourDatabase with the name of your database.
 ### Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
