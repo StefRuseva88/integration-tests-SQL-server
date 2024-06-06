@@ -1,0 +1,93 @@
+[
+  {
+    "ISBN": "9780385487256",
+    "Title": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "YearPublished": 1960,
+    "Genre": "Novel",
+    "Pages": 336,
+    "Price": 10.99
+  },
+  {
+    "ISBN": "9780312857753",
+    "Title": "1984",
+    "Author": "George Orwell",
+    "YearPublished": 1949,
+    "Genre": "Dystopian Fiction",
+    "Pages": 328,
+    "Price": 9.99
+  },
+  {
+    "ISBN": "9780330258644",
+    "Title": "The Catcher in the Rye",
+    "Author": "J.D. Salinger",
+    "YearPublished": 1951,
+    "Genre": "Novel",
+    "Pages": 277,
+    "Price": 8.99
+  },
+  {
+    "ISBN": "9780765316323",
+    "Title": "The Name of the Wind",
+    "Author": "Patrick Rothfuss",
+    "YearPublished": 2007,
+    "Genre": "Fantasy",
+    "Pages": 662,
+    "Price": 12.99
+  },
+  {
+    "ISBN": "9780062315007",
+    "Title": "The Martian",
+    "Author": "Andy Weir",
+    "YearPublished": 2011,
+    "Genre": "Science Fiction",
+    "Pages": 369,
+    "Price": 11.99
+  },
+  {
+    "ISBN": "9780307743394",
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austen",
+    "YearPublished": 1813,
+    "Genre": "Classic Fiction",
+    "Pages": 432,
+    "Price": 8.99
+  },
+  {
+    "ISBN": "9780140449276",
+    "Title": "War and Peace",
+    "Author": "Leo Tolstoy",
+    "YearPublished": 1869,
+    "Genre": "Historical Novel",
+    "Pages": 1392,
+    "Price": 12.99
+  },
+  {
+    "ISBN": "9780679601939",
+    "Title": "Crime and Punishment",
+    "Author": "Fyodor Dostoevsky",
+    "YearPublished": 1866,
+    "Genre": "Psychological Fiction",
+    "Pages": 576,
+    "Price": 9.99
+  },
+  {
+    "ISBN": "9780099578082",
+    "Title": "Norwegian Wood",
+    "Author": "Haruki Murakami",
+    "YearPublished": 1987,
+    "Genre": "Coming-of-Age Novel",
+    "Pages": 296,
+    "Price": 10.50
+  },
+  {
+    "ISBN": "9780143039655",
+    "Title": "The God of Small Things",
+    "Author": "Arundhati Roy",
+    "YearPublished": 1997,
+    "Genre": "Family Saga",
+    "Pages": 336,
+    "Price": 11.99
+  }
+
+]
