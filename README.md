@@ -3,26 +3,28 @@
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![image](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-## This is a test project for Back-End Test Technologies January 2024 Course @ SoftUni.
+### This is a test project for Back-End Test Technologies January 2024 Course @ SoftUni.
 ---
-### Project Description
+## Project Description
 This repository contains a test project designed for practicing integration testing with SQL Server. 
-### Introduction - LibroConsoleAPI
+
+## Introduction - LibroConsoleAPI
 LibroConsoleAPI is a console-based application built using the .NET Core Framework that manages a collection of books. It allows users to perform various operations, such as creating, reading, updating, and deleting books in a SQL Server database.
-### Key Features
+
+## Key Features
 - Create: Add new books to the database.
 - Read: Retrieve details of books from the database.
 - Update: Modify existing book information.
 - Delete: Remove books from the database.
 This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
 
-### Technologies Used
+## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
 - Entity Framework Core: An ORM (Object-Relational Mapper) for database interactions.
 - xUnit: A unit-testing framework for .NET applications
 - nUnit: A unit-testing framework for .NET applications
-### Docker Integration
+## Docker Integration
 You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
 
 1. **Pull the SQL Server Docker image**:
@@ -44,11 +46,11 @@ You can also run the SQL Server using a Docker image, which simplifies the setup
 
 For more information on using Docker with SQL Server, you can refer to the [official Docker documentation](https://hub.docker.com/_/microsoft-mssql-server) and the [SQL Server on Docker guide](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-docker-container-deployment).
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
-### License
+## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
-### Contact
+## Contact
 For any questions or suggestions, please open an issue in the repository.
