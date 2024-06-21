@@ -19,11 +19,12 @@ LibroConsoleAPI is a console-based application built using the .NET Core Framewo
 This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
 
 ## Project Structure
-- **LibroConsoleAPI** - This is the primary project for the application, likely serving as the entry point for the API.
-- **Business** - This layer is responsible for implementing the functionalities that the application is expected to provide.
-- **Common** -  Centralized place to define the rules and constraints related to data validation.
-- **Data** - This layer of the application consists of models representing the data that the application will manage.
-- 
+- **LibroConsoleAPI**: This is the primary project for the application, likely serving as the entry point for the API.
+- **Business**: This layer is responsible for implementing the functionalities that the application is expected to provide.
+- **Common**: Centralized place to define the rules and constraints related to data validation.
+- **Data**: This layer of the application consists of models representing the data that the application will manage.
+- **DataAccess**: The Data Access layer in the application serves as the bridge between the application's business logic and its data source.
+
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
