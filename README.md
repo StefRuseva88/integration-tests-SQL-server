@@ -24,7 +24,7 @@ This application showcases fundamental software development practices, including
 - **Common**: Centralized place to define the rules and constraints related to data validation.
 - **Data**: This layer of the application consists of models representing the data that the application will manage.
 - **DataAccess**: The Data Access layer in the application serves as the bridge between the application's business logic and its data source.
-
+- **Program.cs**
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
