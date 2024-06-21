@@ -22,7 +22,8 @@ This application showcases fundamental software development practices, including
 - **LibroConsoleAPI** - This is the primary project for the application, likely serving as the entry point for the API.
 - **Business** - This layer is responsible for implementing the functionalities that the application is expected to provide.
 - **Common** -  Centralized place to define the rules and constraints related to data validation.
-
+- **Data** - This layer of the application consists of models representing the data that the application will manage.
+- 
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
