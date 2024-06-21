@@ -12,11 +12,16 @@ This repository contains a test project designed for practicing integration test
 LibroConsoleAPI is a console-based application built using the .NET Core Framework that manages a collection of books. It allows users to perform various operations, such as creating, reading, updating, and deleting books in a SQL Server database.
 
 ## Key Features
-- Create: Add new books to the database.
-- Read: Retrieve details of books from the database.
-- Update: Modify existing book information.
-- Delete: Remove books from the database.
+- **Create**: Add new books to the database.
+- **Read**: Retrieve details of books from the database.
+- **Update**: Modify existing book information.
+- **Delete**: Remove books from the database.
 This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
+
+## Project Structure
+- **LibroConsoleAPI** - This is the primary project for the application, likely serving as the entry point for the API.
+
+
 
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
