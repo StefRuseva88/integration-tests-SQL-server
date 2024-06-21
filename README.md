@@ -12,11 +12,11 @@ This repository contains a test project designed for practicing integration test
 LibroConsoleAPI is a console-based application built using the .NET Core Framework that manages a collection of books. It allows users to perform various operations, such as creating, reading, updating, and deleting books in a SQL Server database.
 
 ## Key Features
+This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
 - **Create**: Add new books to the database.
 - **Read**: Retrieve details of books from the database.
 - **Update**: Modify existing book information.
 - **Delete**: Remove books from the database.
-This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
 
 ## Project Structure
 - **LibroConsoleAPI**: This is the primary project for the application, likely serving as the entry point for the API.
@@ -24,13 +24,15 @@ This application showcases fundamental software development practices, including
 - **Common**: Centralized place to define the rules and constraints related to data validation.
 - **Data**: This layer of the application consists of models representing the data that the application will manage.
 - **DataAccess**: The Data Access layer in the application serves as the bridge between the application's business logic and its data source.
-- **Program.cs**
+- **Program.cs**: This is where the application starts execution. 
+  
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
 - Entity Framework Core: An ORM (Object-Relational Mapper) for database interactions.
 - xUnit: A unit-testing framework for .NET applications
 - nUnit: A unit-testing framework for .NET applications
+  
 ## Docker Integration
 You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
 
