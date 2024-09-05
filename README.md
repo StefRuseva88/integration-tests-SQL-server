@@ -4,6 +4,7 @@
 [![MS SQL Server](https://img.shields.io/badge/Database-MS%20SQL%20Server-CC2927.svg)](https://www.microsoft.com/en-us/sql-server)
 [![Docker](https://img.shields.io/badge/Powered%20by-Docker-2496ED.svg)](https://www.docker.com/)
 [![NUnit](https://img.shields.io/badge/tested%20with-NUnit-22B2B0.svg)](https://nunit.org/)
+[![xUnit](https://img.shields.io/badge/tested%20with-xUnit-5E1F87.svg)](https://xunit.net/)
 
 ### This is a test project for **Back-End Test Technologies** January 2024 Course @ SoftUni.
 ---
