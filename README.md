@@ -7,32 +7,31 @@
 ### This is a test project for **Back-End Test Technologies** January 2024 Course @ SoftUni.
 ---
 ## Project Description
-This repository contains a test project designed for integration testing with SQL Server. 
+This repository contains a project designed for integration testing using SQL Server as the backend database.
 
 ## Introduction - LibroConsoleAPI
-LibroConsoleAPI is a console-based application built using the .NET Core Framework that manages a collection of books. It allows users to perform CRUD operations in SQL Server database.
+LibroConsoleAPI is a console application developed with .NET Core, enabling users to manage a library of books through CRUD operations performed on a SQL Server database.
 
 ## Key Features
-This application showcases fundamental software development practices, including integration testing, database management, and console-based application design.
-- **Create**: Add new books to the database.
+This project demonstrates core software development principles like integration testing, database management, and console-based application architecture.
+- **Create**: Add books to the database.
 - **Read**: Retrieve details of books from the database.
 - **Update**: Modify existing book information.
 - **Delete**: Remove books from the database.
 
 ## Project Structure
-- **LibroConsoleAPI**: This is the primary project for the application, likely serving as the entry point for the API.
-- **Business**: This layer is responsible for implementing the functionalities that the application is expected to provide.
-- **Common**: Centralized place to define the rules and constraints related to data validation.
-- **Data**: This layer of the application consists of models representing the data that the application will manage.
-- **DataAccess**: The Data Access layer in the application serves as the bridge between the application's business logic and its data source.
-- **Program.cs**: This is where the application starts execution. 
+- **LibroConsoleAPI**: The main project that serves as the application’s entry point.
+- **Business**: Implements the core functionality of the application.
+- **Common**: Contains validation rules and constraints for data.
+- **Data**: Defines models representing the data managed by the application.
+- **DataAccess**: Acts as a bridge between business logic and the data layer.
   
 ## Technologies Used
 - .NET Core: The primary framework used for building the console application.
 - SQL Server: The database management system used for storing book data.
 - Entity Framework Core: An ORM (Object-Relational Mapper) for database interactions.
-- xUnit: A unit-testing framework for .NET applications
-- nUnit: A unit-testing framework for .NET applications
+- xUnit: A unit-testing framework for .NET applications.
+- nUnit: A unit-testing framework for .NET applications.
   
 ## Docker Integration
 You can also run the SQL Server using a Docker image, which simplifies the setup and ensures consistency across different environments. To set up SQL Server with Docker, follow these steps:
